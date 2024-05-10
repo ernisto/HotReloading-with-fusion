@@ -1,0 +1,35 @@
+{
+  "name": "Simulator Brabo",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": { "$path": "app/server" },
+    "TestService": { "$path": "tests" },
+    "ServerStorage": {
+      "DevPackages": { "$path": "DevPackages" },
+      "Packages": { "$path": "ServerPackages" }
+    },
+    "ReplicatedStorage": {
+      "Packages": { "$path": "Packages" },
+      "Client": { "$path": "app/client" },
+      "Shared": { "$path": "app/shared" },
+      "World": { "$path": "app/World" },
+      "Config": { "$path": "config" },
+      "Assets": { "$path": "assets",
+        "$ignoreUnknownInstances": true,
+        "$className": "Folder"
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true,
+        "SignalBehavior": "Immediate"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}

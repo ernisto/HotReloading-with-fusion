@@ -1,0 +1,1 @@
+return require(game.ReplicatedStorage.Packages._Index["elttob_fusion@0.3.0-dev.1"].fusion.Logging.parseError)
